@@ -23,6 +23,7 @@ type SystemVo struct {
 }
 
 type SettingVo struct {
+	Version            string `json:"version"`
 	RegisterEnable     uint   `json:"registerEnable"`
 	RegisterQuota      int    `json:"registerQuota"`
 	RegisterExpireDays uint   `json:"registerExpireDays"`

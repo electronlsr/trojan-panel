@@ -29,6 +29,7 @@ func Setting(c *gin.Context) {
 		return
 	}
 	settingVo := vo.SettingVo{
+		Version:            constant.TrojanPanelVersion,
 		RegisterEnable:     systemVo.RegisterEnable,
 		RegisterQuota:      systemVo.RegisterQuota,
 		RegisterExpireDays: systemVo.RegisterExpireDays,
