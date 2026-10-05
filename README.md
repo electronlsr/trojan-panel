@@ -2,6 +2,10 @@
 
 Trojan Panel Backend
 
+## Clash Verge Rev / Mihomo
+
+See [subscription compatibility, routing updates, and migration](./docs/clash-verge.md).
+
 ## Build
 
 [compile.bat](./compile.bat)
